@@ -1,0 +1,42 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="zh-hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{% static 'signing_app/css/bootstrap.min.css' %}" />
+    <title>DjangoReact</title>
+  </head>
+  <body>
+    <div id="app">
+        <div class="container">
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6">
+                    <div class="mb-3">
+                      <form action="/upload/" method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="row mb-3">
+                          <label for="formFileMultiple" class="form-label my-4">Select files</label>
+                          <input class="form-control" type="file" id="formFileMultiple" name="the_files" required>
+                        </div>
+                        <div class="row mb-3">
+                          <label for="formFileMultiple" class="form-label my-4">Select stamp position</label>
+                          <select class="form-select" aria-label="Default select example" name="position">
+                            <option selected value="bl">Bottom Left</option>
+                            <option value="br">Bottom Right</option>
+                            <option value="tl">Top Left</option>
+                            <option value="tr">Top Right</option>
+                          </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-4">Upload</button>
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'signing_app/js/bootstrap.bundle.min.js' %}"></script>
+  </body>
+</html>
