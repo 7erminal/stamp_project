@@ -1,0 +1,14 @@
+Watching for file changes with StatReloader
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/sign_documents/settings.py changed, reloading.
+Watching for file changes with StatReloader
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+"POST /upload/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 1927
