@@ -12,3 +12,5 @@ Height of watermark PDF is
 612
 "POST /upload/ HTTP/1.1" 302 0
 "GET / HTTP/1.1" 200 1927
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/sign_documents/settings.py changed, reloading.
+Watching for file changes with StatReloader
