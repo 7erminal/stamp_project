@@ -39,7 +39,7 @@ def upload(request):
         logger.info(uploaded_file_url)
         logger.info("Full path is ")
         logger.info(str(BASE_DIR) + uploaded_file_url)
-        os.chmod(str(BASE_DIR) +uploaded_file_url, 0o777)
+        # os.chmod(str(BASE_DIR) +uploaded_file_url, 0o777)
         doc = aw.Document(str(BASE_DIR) + uploaded_file_url)
         logger.info("About to save raw file")
         doc.save(filename+'.pdf')
