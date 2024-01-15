@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, FileResponse
 from django.core.files.storage import FileSystemStorage
 import aspose.words as aw
 from reportlab.pdfgen import canvas
@@ -114,4 +114,5 @@ def upload(request):
 
         os.remove(filename+'.pdf')
         os.remove('watermark.pdf')
+    return FileResponse(open(filename+"edited-document-output.pdf", 'rb'), as_attachment=True)
     return HttpResponseRedirect('/')

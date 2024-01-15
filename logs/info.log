@@ -32,3 +32,78 @@ Bad Request: /
 "GET / HTTP/1.1" 400 67197
 /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/sign_documents/settings.py changed, reloading.
 Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1927
+"GET / HTTP/1.1" 200 1944
+"GET / HTTP/1.1" 200 1944
+"GET / HTTP/1.1" 200 2016
+"GET /static/signing_app/css/custom.css HTTP/1.1" 200 334
+"GET / HTTP/1.1" 200 2142
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2129
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2240
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2240
+"GET /static/signing_app/css/custom.css HTTP/1.1" 200 367
+"GET / HTTP/1.1" 200 2240
+"GET /static/signing_app/css/custom.css HTTP/1.1" 200 383
+"GET / HTTP/1.1" 200 2248
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2248
+"GET / HTTP/1.1" 200 2248
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2248
+"GET / HTTP/1.1" 200 2248
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2256
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2256
+"GET / HTTP/1.1" 200 2256
+"GET / HTTP/1.1" 200 2248
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2314
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2322
+"GET / HTTP/1.1" 200 2344
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2344
+"GET / HTTP/1.1" 200 2282
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2282
+"GET /static/signing_app/css/custom.css HTTP/1.1" 200 404
+"GET / HTTP/1.1" 200 2282
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2282
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2282
+"GET /static/signing_app/css/custom.css HTTP/1.1" 200 404
+"GET / HTTP/1.1" 200 2282
+"GET /static/signing_app/css/custom.css HTTP/1.1" 200 428
+"GET / HTTP/1.1" 200 2282
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2282
+"GET /static/signing_app/css/custom.css HTTP/1.1" 200 429
+"GET / HTTP/1.1" 200 2282
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2282
+"GET /static/signing_app/css/custom.css HTTP/1.1" 200 430
+"GET / HTTP/1.1" 200 2282
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2282
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2274
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2274
+"GET /static/signing_app/css/custom.css HTTP/1.1" 200 428
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis.docx
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis.docx
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+"POST /upload/ HTTP/1.1" 200 866665
