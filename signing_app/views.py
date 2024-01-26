@@ -81,15 +81,15 @@ def upload(request):
 
         if request.POST['position'] == 'bl':
             # Bottom left
-            c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', 0, 0, 100, 100 * img_height / img_width, mask='auto')
+            c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', 0, 0, 100, 100 * int(img_height) / int(img_width), mask='auto')
 
         if request.POST['position'] == 'tl':
             # Top left
-            c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', 0, input_file.pages[0].mediabox.height - 120, 100, 100 * img_height / img_width, mask='auto')
+            c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', 0, int(input_file.pages[0].mediabox.height) - 120, 100, 100 * int(img_height) / int(img_width), mask='auto')
 
         if request.POST['position'] == 'tr':
             # Top right
-            c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', input_file.pages[0].mediabox.width - 120, input_file.pages[0].mediabox.height - 120, 100, 100 * img_height / img_width, mask='auto')
+            c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', int(input_file.pages[0].mediabox.width) - 120, int(input_file.pages[0].mediabox.height) - 120, 100, 100 * int(img_height) / int(img_width), mask='auto')
 
         if request.POST['position'] == 'br':
             # Bottom right

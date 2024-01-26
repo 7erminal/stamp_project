@@ -742,3 +742,5 @@ Stamp has been applied on all pages.
 About to write into pdf file
 PDF writing complete. About to delete surplus files
 "POST /upload/ HTTP/1.1" 200 861748
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
