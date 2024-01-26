@@ -1,3 +1,4 @@
+import decimal
 from django.shortcuts import render
 from django.http import HttpResponseRedirect, FileResponse
 from django.core.files.storage import FileSystemStorage
@@ -42,12 +43,14 @@ def upload(request):
         logger.info("Changing file permissions")
         os.chmod(str(BASE_DIR) +uploaded_file_url, 0o777)
         logger.info("Getting raw document")
-        doc = aw.Document(str(BASE_DIR) + uploaded_file_url)
-        logger.info("About to save raw file")
-        doc.save(filename+'.pdf')
 
-        logger.info("Removing raw document since we now have the PDF file")
-        os.remove(str(BASE_DIR) +uploaded_file_url)
+        if filename.lower().endswith(('.doc', '.docx')):
+            doc = aw.Document(str(BASE_DIR) + uploaded_file_url)
+            logger.info("About to save raw file")
+            doc.save(filename+'.pdf')
+
+            logger.info("Removing raw document since we now have the PDF file")
+            os.remove(str(BASE_DIR) +uploaded_file_url)
 
         # logger.info("PDF path is ")
         # logger.info(fs.url(filename+'.pdf'))
@@ -64,13 +67,17 @@ def upload(request):
         logger.info("Getting files ready")
         # Get our files ready
         output_file = PdfWriter()
-        input_file = PdfReader(open(str(BASE_DIR)+'/'+filename+'.pdf', "rb"))
-
+        if filename.lower().endswith(('.doc', '.docx')):
+            input_file = PdfReader(open(str(BASE_DIR)+'/'+filename+'.pdf', "rb"))
+        else:
+            input_file = PdfReader(open(str(BASE_DIR)+'/media/'+filename, "rb"))
 
         # Draw the image at x, y. I positioned the x,y to be where i like here
 
         logger.info("Set page size")
         c.setPageSize((input_file.pages[0].mediabox.width, input_file.pages[0].mediabox.height))
+        logger.info("Image height is "+str(img_height)+" and image width is "+str(img_width))
+        logger.info("PDF Size width is "+str(input_file.pages[0].mediabox.width)+" and height is "+str(input_file.pages[0].mediabox.height))
 
         if request.POST['position'] == 'bl':
             # Bottom left
@@ -86,7 +93,7 @@ def upload(request):
 
         if request.POST['position'] == 'br':
             # Bottom right
-            c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', input_file.pages[0].mediabox.width - 120, 0, 100, 100 * img_height / img_width, mask='auto')
+            c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', int(input_file.pages[0].mediabox.width) - 120, 0, 100, 100 * int(img_height) / int(img_width), mask='auto')
 
 
         # Add some custom text for good measure
@@ -123,7 +130,11 @@ def upload(request):
             output_file.write(outputStream)
 
         logger.info("PDF writing complete. About to delete surplus files")
-        os.remove(filename+'.pdf')
+
+        if filename.lower().endswith(('.doc', '.docx')):
+            os.remove(filename+'.pdf')
+        else:
+            os.remove('media/'+filename)
         os.remove('watermark.pdf')
     return FileResponse(open(filename+"edited-document-output.pdf", 'rb'), as_attachment=True)
     return HttpResponseRedirect('/')

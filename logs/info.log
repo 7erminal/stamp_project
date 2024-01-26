@@ -117,3 +117,628 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2274
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+Begin... 
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to save raw file
+Removing raw document since we now have the PDF file
+About to open stamp for processing
+Getting files ready
+Set page size
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 743454
+Watching for file changes with StatReloader
+Begin... 
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to save raw file
+Removing raw document since we now have the PDF file
+About to open stamp for processing
+Getting files ready
+Set page size
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 743454
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+4.0 Card Services - Interactive Push Notifications.pdf
+File name is 
+4.0-Card-Services---Interactive-Push-Notifications.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/4.0-Card-Services---Interactive-Push-Notifications.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 72, in upload
+    input_file = PdfReader(open(str(BASE_DIR)+'/'+filename, "rb"))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/4.0-Card-Services---Interactive-Push-Notifications.pdf'
+"POST /upload/ HTTP/1.1" 500 66333
+"GET /static/signing_app/css/bootstrap.min.css HTTP/1.1" 200 232948
+Begin... 
+File is 
+4.0 Card Services - Interactive Push Notifications.pdf
+File name is 
+4.0-Card-Services---Interactive-Push-Notifications_Mc54MrA.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/4.0-Card-Services---Interactive-Push-Notifications_Mc54MrA.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 72, in upload
+    input_file = PdfReader(open(str(BASE_DIR)+'/'+filename, "rb"))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/4.0-Card-Services---Interactive-Push-Notifications_Mc54MrA.pdf'
+"POST /upload/ HTTP/1.1" 500 66373
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+4.0 Card Services - Interactive Push Notifications.pdf
+File name is 
+4.0-Card-Services---Interactive-Push-Notifications_ZlXG3o1.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/4.0-Card-Services---Interactive-Push-Notifications_ZlXG3o1.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 93, in upload
+    c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', input_file.pages[0].mediabox.width - 120, 0, 100, 100 * img_height / img_width, mask='auto')
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1011, in drawImage
+    self.translate(x, y)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1388, in translate
+    self.transform(1,0,0,1,dx,dy)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1367, in transform
+    a0*e+c0*f+e0, b0*e+d0*f+f0)
+    ~~^~
+TypeError: unsupported operand type(s) for *: 'float' and 'decimal.Decimal'
+"POST /upload/ HTTP/1.1" 500 83918
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+4.0 Card Services - Interactive Push Notifications.pdf
+File name is 
+4.0-Card-Services---Interactive-Push-Notifications_Y2L7KXj.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/4.0-Card-Services---Interactive-Push-Notifications_Y2L7KXj.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 94, in upload
+    c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', input_file.pages[0].mediabox.width - 120, 0, 100, 100 * decimal.Decimal(img_height) / img_width, mask='auto')
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1011, in drawImage
+    self.translate(x, y)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1388, in translate
+    self.transform(1,0,0,1,dx,dy)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1367, in transform
+    a0*e+c0*f+e0, b0*e+d0*f+f0)
+    ~~^~
+TypeError: unsupported operand type(s) for *: 'float' and 'decimal.Decimal'
+"POST /upload/ HTTP/1.1" 500 84019
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+4.0 Card Services - Interactive Push Notifications.pdf
+File name is 
+4.0-Card-Services---Interactive-Push-Notifications_nnGZAm5.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/4.0-Card-Services---Interactive-Push-Notifications_nnGZAm5.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 94, in upload
+    c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', input_file.pages[0].mediabox.width - 120, 0, 100, decimal.Decimal(100) * img_height / img_width, mask='auto')
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1011, in drawImage
+    self.translate(x, y)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1388, in translate
+    self.transform(1,0,0,1,dx,dy)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1367, in transform
+    a0*e+c0*f+e0, b0*e+d0*f+f0)
+    ~~^~
+TypeError: unsupported operand type(s) for *: 'float' and 'decimal.Decimal'
+"POST /upload/ HTTP/1.1" 500 84019
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+4.0 Card Services - Interactive Push Notifications.pdf
+File name is 
+4.0-Card-Services---Interactive-Push-Notifications_v8fIMnr.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/4.0-Card-Services---Interactive-Push-Notifications_v8fIMnr.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 94, in upload
+    c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', input_file.pages[0].mediabox.width - 120, 0, 100, decimal.Decimal(100) * decimal.Decimal(img_height) / decimal.Decimal(img_width), mask='auto')
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1011, in drawImage
+    self.translate(x, y)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1388, in translate
+    self.transform(1,0,0,1,dx,dy)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1367, in transform
+    a0*e+c0*f+e0, b0*e+d0*f+f0)
+    ~~^~
+TypeError: unsupported operand type(s) for *: 'float' and 'decimal.Decimal'
+"POST /upload/ HTTP/1.1" 500 84155
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+4.0 Card Services - Interactive Push Notifications.pdf
+File name is 
+4.0-Card-Services---Interactive-Push-Notifications_T6Y6F7X.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/4.0-Card-Services---Interactive-Push-Notifications_T6Y6F7X.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 94, in upload
+    c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', decimal.Decimal(input_file.pages[0].mediabox.width) - 120, 0, 100, decimal.Decimal(100) * decimal.Decimal(img_height) / decimal.Decimal(img_width), mask='auto')
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1011, in drawImage
+    self.translate(x, y)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1388, in translate
+    self.transform(1,0,0,1,dx,dy)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1367, in transform
+    a0*e+c0*f+e0, b0*e+d0*f+f0)
+    ~~^~
+TypeError: unsupported operand type(s) for *: 'float' and 'decimal.Decimal'
+"POST /upload/ HTTP/1.1" 500 84223
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+4.0 Card Services - Interactive Push Notifications.pdf
+File name is 
+4.0-Card-Services---Interactive-Push-Notifications_YErzfe8.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/4.0-Card-Services---Interactive-Push-Notifications_YErzfe8.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 79, in upload
+    logger.info("Image height is "+img_height+" and image width is "+img_width)
+                ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+TypeError: can only concatenate str (not "int") to str
+"POST /upload/ HTTP/1.1" 500 66361
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+4.0 Card Services - Interactive Push Notifications.pdf
+File name is 
+4.0-Card-Services---Interactive-Push-Notifications_5OgKuNW.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/4.0-Card-Services---Interactive-Push-Notifications_5OgKuNW.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612.0 and height is 792.0
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 96, in upload
+    c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', decimal.Decimal(input_file.pages[0].mediabox.width) - 120, 0, 100, decimal.Decimal(100) * decimal.Decimal(img_height) / decimal.Decimal(img_width), mask='auto')
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1011, in drawImage
+    self.translate(x, y)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1388, in translate
+    self.transform(1,0,0,1,dx,dy)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1367, in transform
+    a0*e+c0*f+e0, b0*e+d0*f+f0)
+    ~~^~
+TypeError: unsupported operand type(s) for *: 'float' and 'decimal.Decimal'
+"POST /upload/ HTTP/1.1" 500 84223
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+4.0 Card Services - Interactive Push Notifications.pdf
+File name is 
+4.0-Card-Services---Interactive-Push-Notifications_UkauW0s.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/4.0-Card-Services---Interactive-Push-Notifications_UkauW0s.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612.0 and height is 792.0
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 96, in upload
+    c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', decimal.Decimal(input_file.pages[0].mediabox.width) - decimal.Decimal(120), decimal.Decimal(0), decimal.Decimal(100), decimal.Decimal(100) * decimal.Decimal(img_height) / decimal.Decimal(img_width), mask='auto')
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1011, in drawImage
+    self.translate(x, y)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1388, in translate
+    self.transform(1,0,0,1,dx,dy)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1367, in transform
+    a0*e+c0*f+e0, b0*e+d0*f+f0)
+    ~~^~
+TypeError: unsupported operand type(s) for *: 'float' and 'decimal.Decimal'
+"POST /upload/ HTTP/1.1" 500 84511
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+4.0 Card Services - Interactive Push Notifications.pdf
+File name is 
+4.0-Card-Services---Interactive-Push-Notifications_743O6ug.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/4.0-Card-Services---Interactive-Push-Notifications_743O6ug.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612.0 and height is 792.0
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 96, in upload
+    c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', decimal.Decimal(input_file.pages[0].mediabox.width) - decimal.Decimal(120), decimal.Decimal(0), decimal.Decimal(100), decimal.Decimal(str(100)) * decimal.Decimal(str(img_height)) / decimal.Decimal(img_width), mask='auto')
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1011, in drawImage
+    self.translate(x, y)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1388, in translate
+    self.transform(1,0,0,1,dx,dy)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1367, in transform
+    a0*e+c0*f+e0, b0*e+d0*f+f0)
+    ~~^~
+TypeError: unsupported operand type(s) for *: 'float' and 'decimal.Decimal'
+"POST /upload/ HTTP/1.1" 500 84551
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+4.0 Card Services - Interactive Push Notifications.pdf
+File name is 
+4.0-Card-Services---Interactive-Push-Notifications_wIsgtLb.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/4.0-Card-Services---Interactive-Push-Notifications_wIsgtLb.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612.0 and height is 792.0
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 96, in upload
+    c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', decimal.Decimal(str(input_file.pages[0].mediabox.width)) - decimal.Decimal(str(120)), decimal.Decimal(str(0)), decimal.Decimal(str(100)), decimal.Decimal(str(100)) * decimal.Decimal(str(img_height)) / decimal.Decimal(str(img_width)), mask='auto')
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1011, in drawImage
+    self.translate(x, y)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1388, in translate
+    self.transform(1,0,0,1,dx,dy)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1367, in transform
+    a0*e+c0*f+e0, b0*e+d0*f+f0)
+    ~~^~
+TypeError: unsupported operand type(s) for *: 'float' and 'decimal.Decimal'
+"POST /upload/ HTTP/1.1" 500 84651
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+4.0 Card Services - Interactive Push Notifications.pdf
+File name is 
+4.0-Card-Services---Interactive-Push-Notifications_45WLzQF.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/4.0-Card-Services---Interactive-Push-Notifications_45WLzQF.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612.0 and height is 792.0
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 96, in upload
+    c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', int(input_file.pages[0].mediabox.width) - decimal.Decimal(120), 0, 100, 100 * int(img_height) / int(img_width), mask='auto')
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1011, in drawImage
+    self.translate(x, y)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1388, in translate
+    self.transform(1,0,0,1,dx,dy)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1367, in transform
+    a0*e+c0*f+e0, b0*e+d0*f+f0)
+    ~~^~
+TypeError: unsupported operand type(s) for *: 'float' and 'decimal.Decimal'
+"POST /upload/ HTTP/1.1" 500 84040
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2274
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 137, in upload
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'Bede-Adawe-Abbe.pdf'
+"POST /upload/ HTTP/1.1" 500 67588
+Begin... 
+File is 
+Project-H-cost-analysis.docxedited-document-output.pdf
+File name is 
+Project-H-cost-analysis.docxedited-document-output.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis.docxedited-document-output.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 1483469
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe_5QUl6Ap.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe_5QUl6Ap.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 137, in upload
+    os.remove(filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'Bede-Adawe-Abbe_5QUl6Ap.pdf'
+"POST /upload/ HTTP/1.1" 500 67636
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe_U2liKnF.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe_U2liKnF.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 137, in upload
+    os.remove('media'+filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'mediaBede-Adawe-Abbe_U2liKnF.pdf'
+"POST /upload/ HTTP/1.1" 500 67703
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe_i2yebop.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe_i2yebop.pdf
+Changing file permissions
+Getting raw document
+About to open stamp for processing
+Getting files ready
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 861748
