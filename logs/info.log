@@ -2262,3 +2262,387 @@ PDF writing complete. About to delete surplus files
 "POST /upload/ HTTP/1.1" 200 3938494
 /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2283
+Begin... 
+List of files are
+[<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>, <InMemoryUploadedFile: Bede-Adawe-Abbe_i2yebop.pdfedited-document-output.pdf (application/pdf)>, <InMemoryUploadedFile: Kaytee.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>, <InMemoryUploadedFile: Mayiya Investment Ltd.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>, <InMemoryUploadedFile: Project-H-cost-analysis.docxedited-document-output.pdf (application/pdf)>]
+File is 
+Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf
+File name is 
+Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Changing file permissions
+Getting raw document
+File is 
+Bede-Adawe-Abbe_i2yebop.pdfedited-document-output.pdf
+File name is 
+Bede-Adawe-Abbe_i2yebop.pdfedited-document-output.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe_i2yebop.pdfedited-document-output.pdf
+Changing file permissions
+Getting raw document
+File is 
+Kaytee.docx
+File name is 
+Kaytee.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Kaytee.docx
+Changing file permissions
+Getting raw document
+File is 
+Mayiya Investment Ltd.docx
+File name is 
+Mayiya-Investment-Ltd.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Mayiya-Investment-Ltd.docx
+Changing file permissions
+Getting raw document
+File is 
+Project-H-cost-analysis.docxedited-document-output.pdf
+File name is 
+Project-H-cost-analysis.docxedited-document-output.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis.docxedited-document-output.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Project-H-cost-analysis.docxedited-document-output.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Mayiya-Investment-Ltd.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Kaytee.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_i2yebop.pdfedited-document-output.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Project-H-cost-analysis.docxedited-document-output.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 10860975
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+List of files are
+[<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>, <InMemoryUploadedFile: Bede-Adawe-Abbe_i2yebop.pdfedited-document-output.pdf (application/pdf)>, <InMemoryUploadedFile: Kaytee.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>, <InMemoryUploadedFile: Mayiya Investment Ltd.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>, <InMemoryUploadedFile: Project-H-cost-analysis.docxedited-document-output.pdf (application/pdf)>]
+File is 
+Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf
+File name is 
+Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Changing file permissions
+Getting raw document
+File is 
+Bede-Adawe-Abbe_i2yebop.pdfedited-document-output.pdf
+File name is 
+Bede-Adawe-Abbe_i2yebop.pdfedited-document-output.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe_i2yebop.pdfedited-document-output.pdf
+Changing file permissions
+Getting raw document
+File is 
+Kaytee.docx
+File name is 
+Kaytee.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Kaytee.docx
+Changing file permissions
+Getting raw document
+File is 
+Mayiya Investment Ltd.docx
+File name is 
+Mayiya-Investment-Ltd.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Mayiya-Investment-Ltd.docx
+Changing file permissions
+Getting raw document
+File is 
+Project-H-cost-analysis.docxedited-document-output.pdf
+File name is 
+Project-H-cost-analysis.docxedited-document-output.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis.docxedited-document-output.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Project-H-cost-analysis.docxedited-document-output.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Mayiya-Investment-Ltd.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Kaytee.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_i2yebop.pdfedited-document-output.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Project-H-cost-analysis.docxedited-document-output.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 10860953
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+List of files are
+[<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>]
+File is 
+Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf
+File name is 
+Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 631680
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+List of files are
+[<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>]
+File is 
+Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf
+File name is 
+Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 631679
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+List of files are
+[<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>]
+File is 
+Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf
+File name is 
+Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 631670
+Begin... 
+List of files are
+[<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>]
+File is 
+Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf
+File name is 
+Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 631670
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+List of files are
+[<InMemoryUploadedFile: Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf (application/pdf)>]
+File is 
+Bede Adawe Abbe (Resume) - Software Engineer.docx.pdf
+File name is 
+Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe-(Resume)---Software-Engineer.docx.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 631667
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
