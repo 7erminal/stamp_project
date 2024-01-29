@@ -746,3 +746,1325 @@ PDF writing complete. About to delete surplus files
 Watching for file changes with StatReloader
 /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/sign_documents/settings.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2274
+"GET /static/signing_app/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET /static/signing_app/css/bootstrap.min.css HTTP/1.1" 200 232948
+Begin... 
+File is 
+Mayiya Investment Ltd-2.docx
+File name is 
+Mayiya-Investment-Ltd-2_9xfCGB6.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Mayiya-Investment-Ltd-2_9xfCGB6.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Removing raw document since we now have the PDF file
+About to open stamp for processing
+Getting files ready
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 72, in upload
+    input_file = PdfReader(open(str(BASE_DIR)+'/'+filename+'.pdf', "rb"))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/Mayiya-Investment-Ltd-2_9xfCGB6.docx.pdf'
+"POST /upload/ HTTP/1.1" 500 66036
+"GET / HTTP/1.1" 200 2274
+"GET / HTTP/1.1" 200 2274
+"GET /static/signing_app/css/custom.css HTTP/1.1" 200 428
+"GET /static/signing_app/js/bootstrap.bundle.min.js HTTP/1.1" 200 80663
+"GET /static/signing_app/css/bootstrap.min.css HTTP/1.1" 200 232948
+Not Found: /apple-touch-icon-precomposed.png
+Not Found: /favicon.ico
+"GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2510
+"GET /favicon.ico HTTP/1.1" 404 2447
+Not Found: /apple-touch-icon.png
+"GET /apple-touch-icon.png HTTP/1.1" 404 2474
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2274
+"GET / HTTP/1.1" 200 2283
+Begin... 
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 52, in upload
+    process.wait()
+    ^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'wait'
+"POST /upload/ HTTP/1.1" 500 64803
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis_yAWV6yh.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis_yAWV6yh.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+About to open stamp for processing
+Getting files ready
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 207, in upload
+    os.remove('watermark.pdf')
+FileNotFoundError: [Errno 2] No such file or directory: 'watermark.pdf'
+"POST /upload/ HTTP/1.1" 500 65397
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis_bcO97Wt.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis_bcO97Wt.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+About to open stamp for processing
+Getting files ready
+Filename is Project-H-cost-analysis_bcO97Wt.docx
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 208, in upload
+    os.remove('watermark.pdf')
+FileNotFoundError: [Errno 2] No such file or directory: 'watermark.pdf'
+"POST /upload/ HTTP/1.1" 500 65397
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis_0LeaF7v.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis_0LeaF7v.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+About to open stamp for processing
+Getting files ready
+Filename is Project-H-cost-analysis_0LeaF7v.docx
+About to loop through files
+<generator object Path.glob at 0x1099a9cf0>
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 210, in upload
+    os.remove('watermark.pdf')
+FileNotFoundError: [Errno 2] No such file or directory: 'watermark.pdf'
+"POST /upload/ HTTP/1.1" 500 65397
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis_WLdN9Io.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis_WLdN9Io.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+About to open stamp for processing
+Getting files ready
+Filename is Project-H-cost-analysis_WLdN9Io.docx
+About to loop through files
+<generator object Path.glob at 0x10923dcf0>
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 211, in upload
+    os.remove('watermark.pdf')
+FileNotFoundError: [Errno 2] No such file or directory: 'watermark.pdf'
+"POST /upload/ HTTP/1.1" 500 65397
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis_HLxaLw8.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis_HLxaLw8.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+About to open stamp for processing
+Getting files ready
+Filename is Project-H-cost-analysis_HLxaLw8.docx
+About to loop through files
+<generator object Path.glob at 0x125fe1cf0>
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 211, in upload
+    os.remove('watermark.pdf')
+FileNotFoundError: [Errno 2] No such file or directory: 'watermark.pdf'
+"POST /upload/ HTTP/1.1" 500 65397
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+About to open stamp for processing
+Getting files ready
+Filename is Project-H-cost-analysis.docx
+About to loop through files
+<generator object Path.rglob at 0x1276c1e00>
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 211, in upload
+    os.remove('watermark.pdf')
+FileNotFoundError: [Errno 2] No such file or directory: 'watermark.pdf'
+"POST /upload/ HTTP/1.1" 500 65382
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+About to open stamp for processing
+Getting files ready
+Filename is Project-H-cost-analysis.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+<generator object Path.rglob at 0x10a065cf0>
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 211, in upload
+    os.remove('watermark.pdf')
+FileNotFoundError: [Errno 2] No such file or directory: 'watermark.pdf'
+"POST /upload/ HTTP/1.1" 500 65382
+Begin... 
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+About to open stamp for processing
+Getting files ready
+Filename is Project-H-cost-analysis.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+<generator object Path.rglob at 0x109f17780>
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 211, in upload
+    os.remove('watermark.pdf')
+FileNotFoundError: [Errno 2] No such file or directory: 'watermark.pdf'
+"POST /upload/ HTTP/1.1" 500 65382
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+"GET / HTTP/1.1" 200 2283
+Begin... 
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Begin... 
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD_xTw0ff4.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD_xTw0ff4.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 53, in upload
+    logger.info("Process code is "+process.returncode)
+                ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "int") to str
+"POST /upload/ HTTP/1.1" 500 65029
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 53, in upload
+    logger.info("Process code is "+process.returncode)
+                ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "int") to str
+"POST /upload/ HTTP/1.1" 500 65013
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is SolisFinancialProductFSD.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+<generator object Path.rglob at 0x105eade00>
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 212, in upload
+    os.remove('watermark.pdf')
+FileNotFoundError: [Errno 2] No such file or directory: 'watermark.pdf'
+"POST /upload/ HTTP/1.1" 500 65385
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 1
+About to open stamp for processing
+Getting files ready
+Filename is SolisFinancialProductFSD.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 212, in upload
+    os.remove('watermark.pdf')
+FileNotFoundError: [Errno 2] No such file or directory: 'watermark.pdf'
+"POST /upload/ HTTP/1.1" 500 65179
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is SolisFinancialProductFSD.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is SolisFinancialProductFSD.pdf
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 80, in upload
+    input_file = PdfReader(open(file, "rb"))
+                           ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'SolisFinancialProductFSD.pdf'
+"POST /upload/ HTTP/1.1" 500 66474
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is SolisFinancialProductFSD.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/SolisFinancialProductFSD.pdf
+Set page size
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 83, in upload
+    c.setPageSize((file.pages[0].mediabox.width, file.pages[0].mediabox.height))
+                   ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'pages'
+"POST /upload/ HTTP/1.1" 500 66783
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is SolisFinancialProductFSD.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/SolisFinancialProductFSD.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 140, in upload
+    process2.wait()
+    ^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'wait'
+"POST /upload/ HTTP/1.1" 500 68977
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is SolisFinancialProductFSD.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/SolisFinancialProductFSD.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 75311
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 1
+About to open stamp for processing
+Getting files ready
+Filename is SolisFinancialProductFSD.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 212, in upload
+    os.remove('watermark.pdf')
+FileNotFoundError: [Errno 2] No such file or directory: 'watermark.pdf'
+"POST /upload/ HTTP/1.1" 500 65179
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is SolisFinancialProductFSD.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/SolisFinancialProductFSD.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 571730
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 35, in upload
+    if filename.lower().endswith(('.pdf')):
+       ^^^^^^^^
+UnboundLocalError: cannot access local variable 'filename' where it is not associated with a value
+"POST /upload/ HTTP/1.1" 500 64258
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 210, in upload
+    os.remove('watermark.pdf')
+FileNotFoundError: [Errno 2] No such file or directory: 'watermark.pdf'
+"POST /upload/ HTTP/1.1" 500 65027
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 210, in upload
+    os.remove('watermark.pdf')
+FileNotFoundError: [Errno 2] No such file or directory: 'watermark.pdf'
+"POST /upload/ HTTP/1.1" 500 65027
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede Adawe Abbe.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 104, in upload
+    c.save()
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1286, in save
+    self._doc.SaveToFile(self._filename, self)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfbase/pdfdoc.py", line 194, in SaveToFile
+    raise RuntimeError("class %s instances can only be saved once" % self.__class__.__name__)
+RuntimeError: class PDFDocument instances can only be saved once
+"POST /upload/ HTTP/1.1" 500 76744
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe_d69GBhR.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe_d69GBhR.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe_d69GBhR.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_d69GBhR.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 104, in upload
+    c.save()
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1286, in save
+    self._doc.SaveToFile(self._filename, self)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfbase/pdfdoc.py", line 194, in SaveToFile
+    raise RuntimeError("class %s instances can only be saved once" % self.__class__.__name__)
+RuntimeError: class PDFDocument instances can only be saved once
+"POST /upload/ HTTP/1.1" 500 76768
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe_R9xOY6n.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe_R9xOY6n.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe_R9xOY6n.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_R9xOY6n.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_d69GBhR.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 104, in upload
+    c.save()
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1286, in save
+    self._doc.SaveToFile(self._filename, self)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfbase/pdfdoc.py", line 194, in SaveToFile
+    raise RuntimeError("class %s instances can only be saved once" % self.__class__.__name__)
+RuntimeError: class PDFDocument instances can only be saved once
+"POST /upload/ HTTP/1.1" 500 76776
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe_yQ4OBA1.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe_yQ4OBA1.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe_yQ4OBA1.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_yQ4OBA1.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_R9xOY6n.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 104, in upload
+    c.save()
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1286, in save
+    self._doc.SaveToFile(self._filename, self)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfbase/pdfdoc.py", line 194, in SaveToFile
+    raise RuntimeError("class %s instances can only be saved once" % self.__class__.__name__)
+RuntimeError: class PDFDocument instances can only be saved once
+"POST /upload/ HTTP/1.1" 500 76776
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe_bDziir0.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe_bDziir0.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe_bDziir0.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_bDziir0.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_yQ4OBA1.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 104, in upload
+    c.save()
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfgen/canvas.py", line 1286, in save
+    self._doc.SaveToFile(self._filename, self)
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/reportlab/pdfbase/pdfdoc.py", line 194, in SaveToFile
+    raise RuntimeError("class %s instances can only be saved once" % self.__class__.__name__)
+RuntimeError: class PDFDocument instances can only be saved once
+"POST /upload/ HTTP/1.1" 500 76776
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe_90a39qa.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe_90a39qa.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe_90a39qa.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_bDziir0.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_yQ4OBA1.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_R9xOY6n.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_d69GBhR.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_90a39qa.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 12358618
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 1
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_bDziir0.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_yQ4OBA1.pdf
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 77, in upload
+    input_file = PdfReader(open(str(BASE_DIR)+'/temp_dir/'+str(file), "rb"))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe_yQ4OBA1.pdf'
+"POST /upload/ HTTP/1.1" 500 70988
+Begin... 
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe.pdf
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Bede-Adawe-Abbe.pdf
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 588563
+Begin... 
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is SolisFinancialProductFSD.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/SolisFinancialProductFSD.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 571734
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 31, in upload
+    files_ = request.FILES.getlist['the_files']
+             ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: 'method' object is not subscriptable
+"POST /upload/ HTTP/1.1" 500 63609
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 31, in upload
+    files_ = request.FILES.getlist['the_files']
+             ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: 'method' object is not subscriptable
+"POST /upload/ HTTP/1.1" 500 63531
+Begin... 
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 31, in upload
+    files_ = request.FILES.getlist['the_files']
+             ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: 'method' object is not subscriptable
+"POST /upload/ HTTP/1.1" 500 63531
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 36, in upload
+    for f in request.FILES.getlist['the_files']:
+             ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: 'method' object is not subscriptable
+"POST /upload/ HTTP/1.1" 500 63649
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 31, in upload
+    files_ = request.FILES.getlist['the_files']
+             ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: 'method' object is not subscriptable
+"POST /upload/ HTTP/1.1" 500 63531
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+List of files are
+[<InMemoryUploadedFile: Bede Adawe Abbe.pdf (application/pdf)>, <InMemoryUploadedFile: Mayiya Investment Ltd.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>, <InMemoryUploadedFile: Project-H cost analysis.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>, <InMemoryUploadedFile: Project-H-cost-analysis.docxedited-document-output.pdfedited-document-output.pdf (application/pdf)>, <InMemoryUploadedFile: SolisFinancialProductFSD.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe.pdf
+Changing file permissions
+Getting raw document
+File is 
+Mayiya Investment Ltd.docx
+File name is 
+Mayiya-Investment-Ltd.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Mayiya-Investment-Ltd.docx
+Changing file permissions
+Getting raw document
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis.docx
+Changing file permissions
+Getting raw document
+File is 
+Project-H-cost-analysis.docxedited-document-output.pdfedited-document-output.pdf
+File name is 
+Project-H-cost-analysis.docxedited-document-output.pdfedited-document-output.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis.docxedited-document-output.pdfedited-document-output.pdf
+Changing file permissions
+Getting raw document
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is SolisFinancialProductFSD.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Mayiya-Investment-Ltd.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/SolisFinancialProductFSD.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Project-H-cost-analysis.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Project-H-cost-analysis.docxedited-document-output.pdfedited-document-output.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe.pdf
+Set page size
+Image height is 416 and image width is 921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 11192655
