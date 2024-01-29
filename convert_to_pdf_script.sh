@@ -6,9 +6,9 @@ sudo cd temp_dir
 sudo cp ../media/* .
 #cd ..
 
-#directory="temp_dir"
+directory="temp_dir"
 
-for file in *; do
+for file in "$directory"/*; do
 	if [ $(head -c 4 "$file") = "%PDF" ]; then
     		echo "It's a PDF file. Skip"
 		sudo rm ../media/"$file"
