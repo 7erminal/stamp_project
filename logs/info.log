@@ -2068,3 +2068,197 @@ Stamp has been applied on all pages.
 About to write into pdf file
 PDF writing complete. About to delete surplus files
 "POST /upload/ HTTP/1.1" 200 11192655
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2283
+Begin... 
+List of files are
+[<InMemoryUploadedFile: Bede Adawe Abbe.pdf (application/pdf)>, <InMemoryUploadedFile: Project-H cost analysis.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>, <InMemoryUploadedFile: SolisFinancialProductFSD.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe.pdf
+Changing file permissions
+Getting raw document
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis.docx
+Changing file permissions
+Getting raw document
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is SolisFinancialProductFSD.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/SolisFinancialProductFSD.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Project-H-cost-analysis.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 3938494
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+List of files are
+[<InMemoryUploadedFile: Bede Adawe Abbe.pdf (application/pdf)>, <InMemoryUploadedFile: Project-H cost analysis.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>, <InMemoryUploadedFile: SolisFinancialProductFSD.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe.pdf
+Changing file permissions
+Getting raw document
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis.docx
+Changing file permissions
+Getting raw document
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is SolisFinancialProductFSD.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 631327
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+Begin... 
+List of files are
+[<InMemoryUploadedFile: Bede Adawe Abbe.pdf (application/pdf)>, <InMemoryUploadedFile: Project-H cost analysis.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>, <InMemoryUploadedFile: SolisFinancialProductFSD.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]
+File is 
+Bede Adawe Abbe.pdf
+File name is 
+Bede-Adawe-Abbe.pdf
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Bede-Adawe-Abbe.pdf
+Changing file permissions
+Getting raw document
+File is 
+Project-H cost analysis.docx
+File name is 
+Project-H-cost-analysis.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Project-H-cost-analysis.docx
+Changing file permissions
+Getting raw document
+File is 
+SolisFinancialProductFSD.docx
+File name is 
+SolisFinancialProductFSD.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/SolisFinancialProductFSD.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is SolisFinancialProductFSD.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/SolisFinancialProductFSD.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Project-H-cost-analysis.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Bede-Adawe-Abbe.pdf
+Set page size
+Image height is 1000 and image width is 1921
+PDF Size width is 612 and height is 792
+Height of actual PDF is  
+612
+Height of watermark PDF is  
+612
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 3938494
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
+Watching for file changes with StatReloader

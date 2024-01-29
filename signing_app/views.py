@@ -91,19 +91,19 @@ def upload(request):
 
             if request.POST['position'] == 'bl':
                 # Bottom left
-                c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', 0, 0, 100, 100 * int(img_height) / int(img_width), mask='auto')
+                c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', 0, 0, 130, 130 * int(img_height) / int(img_width), mask='auto')
 
             if request.POST['position'] == 'tl':
                 # Top left
-                c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', 0, int(input_file.pages[0].mediabox.height) - 120, 100, 100 * int(img_height) / int(img_width), mask='auto')
+                c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', 0, int(input_file.pages[0].mediabox.height) - 120, 130, 130 * int(img_height) / int(img_width), mask='auto')
 
             if request.POST['position'] == 'tr':
                 # Top right
-                c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', int(input_file.pages[0].mediabox.width) - 120, int(input_file.pages[0].mediabox.height) - 120, 100, 100 * int(img_height) / int(img_width), mask='auto')
+                c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', int(input_file.pages[0].mediabox.width) - 120, int(input_file.pages[0].mediabox.height) - 120, 130, 130 * int(img_height) / int(img_width), mask='auto')
 
             if request.POST['position'] == 'br':
                 # Bottom right
-                c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', int(input_file.pages[0].mediabox.width) - 120, 0, 100, 100 * int(img_height) / int(img_width), mask='auto')
+                c.drawImage(str(BASE_DIR) + '/media/application_images/stamp.png', int(input_file.pages[0].mediabox.width) - 120, 0, 130, 130 * int(img_height) / int(img_width), mask='auto')
 
 
             # Add some custom text for good measure
