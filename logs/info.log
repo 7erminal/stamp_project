@@ -2646,3 +2646,100 @@ PDF writing complete. About to delete surplus files
 "POST /upload/ HTTP/1.1" 200 631667
 /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2283
+"GET /static/signing_app/js/bootstrap.bundle.min.js HTTP/1.1" 200 80663
+"GET /static/signing_app/css/bootstrap.min.css HTTP/1.1" 200 232948
+"GET /static/signing_app/css/custom.css HTTP/1.1" 304 0
+"GET /static/signing_app/css/bootstrap.min.css.map HTTP/1.1" 404 1870
+"GET /static/signing_app/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1885
+Begin... 
+List of files are
+[<InMemoryUploadedFile: ACCEPTANCE LETTER_Bede.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>, <InMemoryUploadedFile: Animo Software Development Invoice.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]
+File is 
+ACCEPTANCE LETTER_Bede.docx
+File name is 
+ACCEPTANCE-LETTER_Bede.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/ACCEPTANCE-LETTER_Bede.docx
+Changing file permissions
+Getting raw document
+File is 
+Animo Software Development Invoice.docx
+File name is 
+Animo-Software-Development-Invoice.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Animo-Software-Development-Invoice.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Animo-Software-Development-Invoice.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/virtualEnvDev/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/signing_app/views.py", line 150, in upload
+    return FileResponse(open("pFiles.zip", 'rb'), as_attachment=True)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'pFiles.zip'
+"POST /upload/ HTTP/1.1" 500 65357
+"GET /static/signing_app/css/bootstrap.min.css.map HTTP/1.1" 404 1870
+"GET /static/signing_app/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1885
+Begin... 
+List of files are
+[<InMemoryUploadedFile: ACCEPTANCE LETTER_Bede.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>, <InMemoryUploadedFile: Animo Software Development Invoice.docx (application/vnd.openxmlformats-officedocument.wordprocessingml.document)>]
+File is 
+ACCEPTANCE LETTER_Bede.docx
+File name is 
+ACCEPTANCE-LETTER_Bede.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/ACCEPTANCE-LETTER_Bede.docx
+Changing file permissions
+Getting raw document
+File is 
+Animo Software Development Invoice.docx
+File name is 
+Animo-Software-Development-Invoice.docx
+Full path is 
+/Users/bede.abbe/Desktop/projects/python_projects/sign_documents/media/Animo-Software-Development-Invoice.docx
+Changing file permissions
+Getting raw document
+About to call sh script to convert file to pdf
+Process code is 0
+About to open stamp for processing
+Getting files ready
+Filename is Animo-Software-Development-Invoice.docx
+About to loop through files in /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/Animo-Software-Development-Invoice.pdf
+Set page size
+Image height is 1000 and image width is 1937
+PDF Size width is 595.303937007874 and height is 841.889763779528
+Height of actual PDF is  
+595.303937007874
+Height of watermark PDF is  
+595.303937007874
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+Path is /Users/bede.abbe/Desktop/projects/python_projects/sign_documents/temp_dir/ACCEPTANCE-LETTER_Bede.pdf
+Set page size
+Image height is 1000 and image width is 1937
+PDF Size width is 595.303937007874 and height is 841.889763779528
+Height of actual PDF is  
+595.303937007874
+Height of watermark PDF is  
+595.303937007874
+About to apply stamp on all pages of the file
+Stamp has been applied on all pages. 
+About to write into pdf file
+PDF writing complete. About to delete surplus files
+"POST /upload/ HTTP/1.1" 200 1852986
